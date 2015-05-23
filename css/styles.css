@@ -139,9 +139,9 @@ h1, h2, h3{
 }
 
 p{
-	font-family: Arial, sans-serif;
+	font-family: 'PT Sans Narrow', sans-serif;
 	color: #f9d408;
-	font-size: 14px;
+	font-size: 18px;
 	padding-left: 50px;
 	padding-right: 50px;
 	text-align: center;
