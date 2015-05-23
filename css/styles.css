@@ -77,6 +77,13 @@ OVERRIDE MEDIA ELEMENT PLAYER STYLING
 	padding: 0;
 }
 
+.mejs-378 .mejs-controls .mejs-time-rail .mejs-time-total {
+	background: #f9d409;
+	height: 25px;
+	padding: 0;
+
+}
+
 div.mejs-overlay-button{
 	color: #F2F20C;
 
