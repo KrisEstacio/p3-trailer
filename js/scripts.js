@@ -7,6 +7,7 @@ $('video').mediaelementplayer();
 
 var $overlay = $('<div id="overlay"></div>');
 var $image = $("<img>");
+var $caption = $("<p></p>");
 
 //An image to overlay
 $overlay.append($image);
@@ -14,6 +15,7 @@ $overlay.append($image);
 //Add overlay
 $("body").append($overlay);
   //A caption
+$overlay.append($caption);
 
 //Capture the click event on a link to an image
 $("#imageGallery a").click(function(event){
@@ -26,6 +28,8 @@ $("#imageGallery a").click(function(event){
   $overlay.show();
   
   //Get child's alt attribute and set caption
+  var captionText = $(this).children("img").attr("alt");
+  $caption.text(captionText);
 
 
 });

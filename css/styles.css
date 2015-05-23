@@ -223,6 +223,15 @@ div .grid-12 h2{
  margin-top: 900px; 
 }
 
+#overlay p{
+	margin-top: 0px;
+	color: #f9d408;
+	font-size: 30px;
+
+}
+
+
+
 
 /********************
 MEDIA QUERIES
