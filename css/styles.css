@@ -20,7 +20,7 @@ OVERRIDE MEDIA ELEMENT PLAYER STYLING
 .mejs-378 .mejs-controls {
 	background: black;
 	height:45px;
-	fill: yellow;
+	
 
 }
 
@@ -72,7 +72,7 @@ OVERRIDE MEDIA ELEMENT PLAYER STYLING
 }
 
 .mejs-378 .mejs-controls .mejs-time-rail .mejs-time-current {
-	background: #F2F20C;
+	background: #f9d409;
 	height: 25px;
 	padding: 0;
 }
@@ -103,14 +103,10 @@ div.mejs-overlay-button{
 body{
 	background-image: url(../img/background.jpg);
 	background-repeat: no-repeat;
-	
+	background-color: #040404;
 }
 
-div img .grid-8{
-	margin: 0 auto;
-	text-align: center;
 
-}
 
 div h1{
 	text-align: center;
@@ -126,7 +122,7 @@ h1{
 }
 
 h1, h2, h3, p{
-	color: #F2F20C;
+	color: #f9d409;
 
 }
 
