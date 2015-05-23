@@ -5,6 +5,7 @@ OVERRIDE MEDIA ELEMENT PLAYER STYLING
 /* Wrapper container */
 .mejs-container,
 .mejs-overlay {
+
 	
 	/* Hack around Media Element Player */
 	width: 100% !important;
@@ -17,12 +18,38 @@ OVERRIDE MEDIA ELEMENT PLAYER STYLING
 
 /* [] 2. Control Wrapper Positioning */
 .mejs-378 .mejs-controls {
+	background: black;
+	height:45px;
+	fill: yellow;
 
 }
 
 /* [] 3. Play Button */
 .mejs-378 .mejs-controls .mejs-play button {
+	outline: none;
+	margin-top: 10px;
+
 	
+}
+
+.mejs-378 .mejs-controls .mejs-pause button {
+	margin-top: 10px;
+	
+}
+
+.mejs-378 .mejs-controls .mejs-volume-button button{
+	margin-top: 10px;
+
+}
+
+.mejs-378 .mejs-controls .mejs-volume-button .mejs-mute button{
+	margin-top: 10px;
+
+}
+
+.mejs-378 .mejs-controls .mejs-fullscreen-button button{
+	margin-top: 10px;
+
 }
 
 /* [] 4. Current Time Display */
@@ -32,19 +59,76 @@ OVERRIDE MEDIA ELEMENT PLAYER STYLING
 
 /* [] 5. Rail: Current Loaded, To Load, & Background */
 .mejs-378 .mejs-controls div.mejs-time-rail {
+	height:25px;
+	padding: 0;
+
 	
 }
 
 .mejs-378 .mejs-controls .mejs-time-rail .mejs-time-loaded {
-	background: green;
+	background: #292929;
+	height: 25px;
+	padding: 0;
 }
 
 .mejs-378 .mejs-controls .mejs-time-rail .mejs-time-current {
-	background: red;
+	background: #F2F20C;
+	height: 25px;
+	padding: 0;
 }
+
+div.mejs-overlay-button{
+	color: #F2F20C;
+
+}
+
+.mejs-container .mejs-controls .mejs-time-rail .mejs-time-total .mejs-time-float{
+	border: none;
+	background: none;
+	text-shadow: 0px 1px 2px rgba(0,0,0,.8);
+	font-family: 'Anton';
+	font-size: 14px;
+	color: #F2F20C;
+
+}
+
+
+
 
 /* ADD MORE STYLING. MAKE IT YOUR OWN. */
 
+
+
+
+body{
+	background-image: url(../img/background.jpg);
+	background-repeat: no-repeat;
+	
+}
+
+div img .grid-8{
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+div h1{
+	text-align: center;
+
+
+}
+
+h1{
+	font-family: 'Anton', Arial;
+	font-size: 5em;
+	margin-top: 35px;
+
+}
+
+h1, h2, h3, p{
+	color: #F2F20C;
+
+}
 
 /********************
 MEDIA QUERIES
