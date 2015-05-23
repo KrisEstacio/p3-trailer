@@ -191,6 +191,19 @@ div .grid-12 h2{
 
 
 
+::-webkit-scrollbar {width: 10px; height: 10px; background: #040404; }
+::-webkit-scrollbar-thumb { background-color: #f9d408; -webkit-border-radius: 5px; }
+::-moz-scrollbar {width: 10px; height: 10px; background: #040404; }
+::-moz-scrollbar-thumb { background-color: #f9d408; -webkit-border-radius: 5px; }
+::-o-scrollbar {width: 10px; height: 10px; background: #040404; }
+::-o-scrollbar-thumb { background-color: #f9d408; -webkit-border-radius: 5px; }
+
+
+
+
+
+
+
 /* Used the treehouse tutorial to guide my lightbox. */
 
 #overlay {
