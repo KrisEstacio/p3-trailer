@@ -99,6 +99,9 @@ div.mejs-overlay-button{
 
 }
 
+.mejs-controls .mejs-button button {
+	color: yellow;
+}
 
 
 
