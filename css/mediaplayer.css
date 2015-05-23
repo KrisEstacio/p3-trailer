@@ -105,7 +105,7 @@
 }
 
 .mejs-overlay:hover .mejs-overlay-button {
-  background-position: 0 -100px;
+  background-position: 0;
 }
 
 .mejs-overlay-loading {
